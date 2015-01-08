@@ -1,0 +1,10 @@
+<div class="jumbotron text-center">
+    <h1>{{photo.title}}</h1>
+    <p><b>Album:</b> {{photo.title}}</p>
+
+    <a class="btn btn-primary" ng-click="edit()">Editer la photo</a>
+    <a class="btn btn-danger" ng-click="delete()">Supprimer la photo</a>
+</div>
+<div class="row">
+    <img ng-src="{{photo.url}}">
+</div>

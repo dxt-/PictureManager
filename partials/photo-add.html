@@ -1,0 +1,18 @@
+<div class="jumbotron text-center">
+    <h1>Ajouter une photo</h1>
+</div>
+
+
+<form>
+    <div class="form-group">
+        <label for="url">Entrer l'url de la photo</label>
+        <input class="form-control" type="text" id="url" ng-model="url" placeholder="url de la photo..">
+    </div>
+    <label for="album">Choisir un album</label>
+
+    <select class="form-control" ng-model="albumTitle">
+        <option ng-repeat="album in albums">{{ album.title }}</option>
+    </select>
+    </br>
+    <button type="submit" ng-click="submit()" class="btn btn-primary">Ajouter</button>
+</form>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="/bower_components/angularjs/angular.min.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="/bower_components/ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/app.js"></script>
+    </head>
+
+    <body ng-app="myPictureManager">
+
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="home">Picture Manager</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a ui-sref="add">Ajouter</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    </body>
+</html>

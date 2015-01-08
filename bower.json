@@ -1,0 +1,22 @@
+{
+  "name": "test-angular",
+  "version": "0.0.0",
+  "authors": [
+    "Fabrice MALLET <mallet_f@etna-alternance.net>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.8"
+  }
+}
